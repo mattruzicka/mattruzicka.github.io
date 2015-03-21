@@ -1,0 +1,16 @@
+# Site settings
+title: Matt Ruzicka
+description:
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: mattruzicka
+github_username:  mattruzicka
+
+# Build settings
+markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
